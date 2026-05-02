@@ -1,0 +1,30 @@
+# Binaries and build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+bin/
+dist/
+
+# Go workspace and coverage
+*.coverprofile
+coverage.out
+
+# Local environment and overrides
+.env
+.env.*
+*.local
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+#storage
+storage
